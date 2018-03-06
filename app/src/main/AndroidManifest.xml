@@ -28,10 +28,6 @@
             android:name=".MyMain"
             android:label="@string/title_activity_my_main"
             android:theme="@style/AppTheme.NoActionBar" />
-        <activity
-            android:name=".d"
-            android:label="@string/title_activity_d"
-            android:theme="@style/AppTheme.NoActionBar"></activity>
     </application>
 
 </manifest>
