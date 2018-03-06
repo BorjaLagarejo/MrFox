@@ -1,10 +1,13 @@
-<menu xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
-    xmlns:tools="http://schemas.android.com/tools"
-    tools:context="es.dam.mrfox.MyMain">
+<menu
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
     <item
-        android:id="@+id/action_settings"
-        android:orderInCategory="100"
-        android:title="@string/action_settings"
-        app:showAsAction="never" />
+        android:id="@+id/Enviar"
+        android:icon="@android:drawable/ic_menu_send"
+        android:title="Enviar"
+        app:showAsAction="always" />
+
+    <item
+        android:id="@+id/opciones"
+        android:title="settings" />
 </menu>
