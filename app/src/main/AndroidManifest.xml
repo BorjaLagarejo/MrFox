@@ -16,8 +16,22 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".MyMain" />
-        <activity android:name=".MyLogin"></activity>
+        <activity
+            android:name=".MyLogin"
+            android:windowSoftInputMode="stateHidden|adjustResize" />
+
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
+
+        <activity
+            android:name=".MyMain"
+            android:label="@string/title_activity_my_main"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".d"
+            android:label="@string/title_activity_d"
+            android:theme="@style/AppTheme.NoActionBar"></activity>
     </application>
 
 </manifest>
